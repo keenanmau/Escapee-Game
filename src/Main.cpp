@@ -194,7 +194,7 @@ int main(void)
 
 		
         bg.drawBackground();
-        /*
+        /* 
         for(int i = 0; i < characterStack.size(); i++){
             if(bg.checkBox(characterStack[i].getBox())) {
             	glDrawSprite(characterStack[i].getSprite(), characterStack[i].getX() - bg.getX(), 

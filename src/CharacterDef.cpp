@@ -167,7 +167,6 @@ void CharacterData::draw(int difx, int dify){
 void CharacterData::drawVision(int difx, int dify){
 	glBegin(GL_TRIANGLES);
 	//glEnable(GL_BLEND);
-	//fucking done for now. 
 	glColor4d(1.0, 0.5, 0.5, 0.5);
 	glVertex2i(triAr[0] - difx, triAr[1] - dify);
 	glVertex2i(triAr[2] - difx, triAr[3] - dify);
